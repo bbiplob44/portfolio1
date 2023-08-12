@@ -1,3 +1,35 @@
-h1{
-    color: aqua;
+h1 {
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.orange {
+    color: orange;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 80%;
+    padding-left: 5%
+}
+
+.half-width img {
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.link-button {
+    background-image: linear-gradient(red, orangered);
+    padding: 5px 12px 5px 12px;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 900;
+    text-decoration: none;
 }
