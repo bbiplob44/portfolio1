@@ -2,6 +2,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -38,4 +42,24 @@ body {
 
 #heading {
     padding-left: 70px;
+}
+
+.box-shadow {
+    width: 90%;
+    padding: 4%;
+    margin: 60px 60px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+
+#web-develop {
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon tomato));
+    border-image-slice: 1;
+}
+
+#web-color {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue cyan);
+    border-image-slice: 1;
 }
