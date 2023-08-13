@@ -8,9 +8,10 @@ body {
 
 .orange {
     color: orange;
+    text-shadow: 5px -10px 4px orangered;
 }
 
-section {
+.flexible-content {
     display: flex;
     margin-bottom: 100px;
 }
@@ -33,4 +34,8 @@ section {
     font-size: large;
     font-weight: 900;
     text-decoration: none;
+}
+
+#heading {
+    padding-left: 70px;
 }
